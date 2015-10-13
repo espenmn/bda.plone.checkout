@@ -24,9 +24,11 @@
         });
 
         // terms and conditions overlay
+        var content_filter = '#content>*:not(div.configlet),' +
+                             'dl.portalMessage.error,dl.portalMessage.info';
         $('a.terms_and_conditions').prepOverlay({
             subtype: 'ajax',
-            filter: common_content_filter,
+            filter: content_filter,
             cssclass: 'overlay-terms-and-condition',
         });
 
