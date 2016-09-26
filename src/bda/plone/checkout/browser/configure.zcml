@@ -29,33 +29,28 @@
   <!-- generic resources -->
   <browser:resource
     name="bda.plone.checkout.js"
-    file="checkout.js"
-    layer="..interfaces.ICheckoutExtensionLayer"/>
+    file="checkout.js" />
 
   <!-- plone 4 resources -->
   <browser:resource
     zcml:condition="not-have plone-5"
     name="bda.plone.checkout.css"
-    file="checkout_p4.css"
-    layer="..interfaces.ICheckoutExtensionLayer"/>
+    file="checkout_p4.css" />
 
   <!-- plone 5 resources -->
   <browser:resource
     zcml:condition="have plone-5"
     name="bda.plone.checkout.less"
-    file="checkout_p5.less"
-    layer="..interfaces.ICheckoutExtensionLayer" />
+    file="checkout_p5.less" />
 
   <browser:resource
     zcml:condition="have plone-5"
     name="bda.plone.checkout.css"
-    file="checkout_p5.css"
-    layer="..interfaces.ICheckoutExtensionLayer" />
+    file="checkout_p5.css" />
 
   <browser:resource
     zcml:condition="have plone-5"
     name="bda.plone.checkout.css.map"
-    file="checkout_p5.css.map"
-    layer="..interfaces.ICheckoutExtensionLayer" />
+    file="checkout_p5.css.map" />
 
 </configure>
