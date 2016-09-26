@@ -9,6 +9,7 @@
     <value key="jscompilation">++resource++bda.plone.checkout.js</value>
     <value key="csscompilation">++resource++bda.plone.checkout.css</value>
     <value key="depends">plone</value>
+    <value key="merge_with">default</value>
   </records>
 
 </registry>
